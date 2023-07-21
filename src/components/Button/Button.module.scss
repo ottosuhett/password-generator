@@ -1,0 +1,12 @@
+.btn{
+    font-size: 4rem;
+    box-shadow: 1rem 1rem 0.5rem #FFFFFF;
+    padding: 2rem;
+    background: linear-gradient(to right, (#116276,#111010));
+    border-radius: 10%;
+    min-width: 25rem;
+    @media(max-width:320px){
+        font-size: 3rem;
+        width:15rem
+    }
+}
